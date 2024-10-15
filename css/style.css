@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+:root {
+    /* Paleta de cores */
+    --cor-principal: #1721DD;
+    --cor-01: #FFFFFF;
+    --cor-02: #dfdfdf;
+    --cor-03: #F2662B;
+    --cor-secundaria: #F0500C;
+    --cor-04: #8B90EE;
+    --cor-05: #232323;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+body{
+    background-color: var(--cor-02);
+    color: var(--cor-05);
+}
+/* barra de navegação */
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--cor-secundaria);
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo {
+    color: var(--cor-04);
+    font-family:"Libre Baskerville", serif;
+    font-size: 1.2rem;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--cor-01);
+    letter-spacing: 0.1rem;
+    padding: 0.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+nav a:hover{
+    cursor: pointer;
+    color: var(--cor-04);
+    transition: 0.3s;
+}
+
+/* header (cabeçalho) */
+header{
+    height: 20rem;
+    margin-top: 4rem;
+    background-color: var(--cor-05);
+    color: var(--cor-03);
+}
+
+/* sections */
+
+section{
+    border: solid 1px red; /* TESTE */
+    min-height: 80vh;
+    padding: 5rem 2rem;
+}
+
+/* footer */
+
+footer{
+    min-height: 16rem;
+    background-color: var(--cor-principal);
+    color: var(--cor-01);
+    padding: 5rem 2rem;
+}

@@ -1,0 +1,40 @@
+[
+    {
+    "titulo": "Apartamento com 3 quartos",
+    "descricao": "Lindo apartamento de 3 quartos, perto da praia.",
+    "valor": 210000,
+    "area": 103,
+    "quartos": 3,
+    "tipo": "Apartamento",
+    "localizacao": "Praia do Futuro - Fortaleza/CE",
+    "mapa": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.275604025266!2d-38.45356642514961!3d-3.7500458962238525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c747959a69bd67%3A0xf870c5e3a9537282!2sEdif%C3%ADcio%20Jos%C3%A9%20Meton%20de%20Vasconcelos!5e0!3m2!1spt-BR!2sbr!4v1729104535153!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    "venda_aluguel": "venda",
+    "finalidade": "residencial",
+    "fotos": [
+        "https://imgs.kenlo.io/VWRCUkQ2Tnp3d1BJRDBJVe1szkhnWr9UfpZS9ftWwjXgr7v5Znen3XVcMHllDVRJJeIbi3YwVYEtu0JKwd1PwE4XifMlAZjnkCOm4oi14+qevHiGz8jY4+3Q6tLzdevp5L5v-fOiCVSWq7RdQYcYH3dIOupGaUPORt+OEkV8+Bamgx7ccYN2XW4I+RsirzQJ6mO3coeh8GIt8nqjKqmDunOgZoS8UGJSRMhHR9ox7ltMqBezU0J8p0oF7Jq1qTLdaOenJpi9yWxNWAZ8vJq+TqjzwtiOK59nSeUyO3cb51URUaJf1-aKA+9jrwcLou-TCwSW3hrDkec3f8vtBcFJnKALiFzBErcauE3vw4DO16GpbxuEMlFp9bHJqqO0afn1GvvwOWSjh5ZGpM3IIc0ed9qhH2dLVnM5MDwUqVy2qvTa4hirYXjWtl0VWAvP3NE=.jpg",
+        "https://imgs.kenlo.io/VWRCUkQ2Tnp3d1BJRDBJVe1szkhnWr9UfpZS9ftWwjXgr7v5Znen3XVcMHllDVRJJeIbi3YwVYEtu35ij4lQxkZljfY0AIGHk3CXxKHI-9HEq2Gw2Jfb75L218jeWcTamJJu-fTyNgCXi7RKYfAoLWchUPREYjfYeouuYEN-hzzSgXnvTrd0aTALhVk0sSsO9l+GYMKN93drhy7-FOHGmjWLSIfDIWJ1QPlLANk18QdW9hinR0InpwcW5JO3vSCAaKyyLIOvkiMYDwYu6oa6SeKv15TFJsonDqooL34J41sRFqAe2beFX6J24QkLuOfUB1+EkBnHl+8kYMGwX95LlLxQlQbGT+Advhu-z9fDgaX6bUyEZ1M0o+rO-ae2O-ygGbSte2+jxctT5pPfapgLIpinA2JAHGZ5J3BfqQD7qbmT4kGrLniV5BBfSAGA.jpg",
+        "https://imgs.kenlo.io/VWRCUkQ2Tnp3d1BJRDBJVe1szkhnWr9UfpZS9ftWwjXgr7v5Znen3XVcMHllDVRJJeIbi3YwVYEtu19H0PtK-Rc3kc4jDJW5jnOr56+j4-LJnEma0avGva3L3sHGWcbB7qoFjajIFVOP6L9nZus1OEppbch8YiXXZLXFJlpr-jKL+VzXSr5fQEFN2REJnDZ+xlCVZ4eA+FMNyh38FviBkxmtHPvgDFxlQPlLANk18QdW9hinR0InpwcW5JO3vSCAaKyyLIOvkiMYDwYu6oa6SeKv15TFJsonDqooL34J41sRFqAe2beFX6J24QkLuOfUB1+EkBnHl+8kYMGwX95LlLxQlQbGT+Advhu-z9fDgaX6bUyEZ1M0o+rO-ae2O-ygGbSte2+jxctT5pPfapgLIpinA2JAHGZ5J3BfqQD7qbmT4kGrLniV5BBfSAGA.jpg",
+        "https://imgs.kenlo.io/VWRCUkQ2Tnp3d1BJRDBJVe1szkhnWr9UfpZS9ftWwjXgr7v5Znen3XVcMHllDVRJJeIbi3YwVYEtu2184eBTtxoEztA9UO6RjHOg-b+z5MWjoB6t0qz4h4PkzMn1f-3zwqAcw6L9Tgf8ip5rd-AEMFomPtVFSSLkULzbHGJ8rwmHpxjHT4lXcXZ47iIRikYJ-mqdYbu9+Q8vyT--N9LlljeFcYe+D2dRKrpHR9ox7ltMqBezU0J8p0oF7Jq1qTLdaOenJpi9yWxNWAZ8vJq+TqjzwtiOK59nSeUyO3cb51URUaJf1-aKA+9jrwcLou-TCwSW3hrDkec3f8vtBcFJnKALiFzBErcauE3vw4DO16GpbxuEMlFp9bHJqqO0afn1GvvwOWSjh5ZGpM3IIc0ed9qhH2dLVnM5MDwUqVy2qvTa4hirYXjWtl0VWAvP3NE=.jpg"
+    ],
+    "status": false
+  },
+  {
+    "titulo": "Apartamento com 3 quartos",
+    "descricao": "Apartamento Alto Padrão com lazer completo e 3 quartos.",
+    "valor": 1100000,
+    "area": 114,
+    "quartos": 3,
+    "tipo": "Apartamento",
+    "localizacao": "Joaquim Távora - Fortaleza/CE",
+    "mapa": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.311334907485!2d-38.5107660651807!3d-3.742192386881365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c748f2236504f3%3A0x2ca38b2a81662710!2sR.%20Jo%C3%A3o%20Br%C3%ADgido%2C%201455%20-%20Joaquim%20T%C3%A1vora%20(Fortaleza)%2C%20Fortaleza%20-%20CE%2C%2060135-080!5e0!3m2!1spt-BR!2sbr!4v1729104821591!5m2!1spt-BR!2sbr' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+    "venda_aluguel": "venda",
+    "finalidade": "residencial",
+    "fotos": [
+        "https://imgs.kenlo.io/VWRCUkQ2Tnp3d1BJRDBJVe1szkhnWr9UfpZS9ftWwjXgr7v5Znen3XVcMHllDVRJJeIbi3YwVYEtu3Zsj+BH9EkFv9YjbYWAkQaN1bLRyvu69Hi13rnWh+7wyMH4ef7D0aAi0KXhMgG0i7N4fOECLhxwXvkqbD3lRaawYiJJ+D21p3zsa+YeYmRX-DwrrzJn-nijcoad+AM1wAamMNndrT-dUoC6C3pjNd5HR9ox7ltMqBezU0J8p0oF7Jq1qTLdaOenJpi9yWxNWAZ8vJq+TqjzwtiOK59nSeUyO3cb51URUaJf1-aKA+9jrwcLou-TCwSW3hrDkec3f8vtBcFJnKALiFzBErcauE3vw4DO16GpbxuEMlFp9bHJqqO0afn1GvvwOWSjh5ZGpM3IIc0ed9qhH2dLVnM5MDwUqVy2qvTa4hirYXjWtl0VWAvP3NE=.jpg",
+        "https://imgs.kenlo.io/VWRCUkQ2Tnp3d1BJRDBJVe1szkhnWr9UfpZS9ftWwjXgr7v5Znen3XVcMHllDVRJJeIbi3YwVYEtu1s5wINz6S17to8ARI2JvRa484uL-Y+fj2Ob-aPP5u7+293bTcP4kNEuwfLBMk6SoYlAeeM8L0x4Pso-RDntWY6ODSNcomGouXLUS4QDcmZO4lEbukdQ1lWdXLWvrX0Syz+rPP3W9HW7EPrUXVgEFrMNAdsz6EIJ9xa9SUxy8h8d55m-oS7TO7S-K5+hxzlXFx5k9oa+Squ619jCLJU4Vr0lNm4L5VMZWe0S2-TJT-8+5wEDqv3JFhXchgzWgPAoc9j0Qd9In6scxA3KHuYcuUq+wo2UgKCsOU+HMQc9-O7NqffkO-nwSqjseGerj9xRpo3WKI8JdY20DGhBVzhnLjVRp1LkteiL+gDqIHbY+0JHQAPNkQ==.jpg",
+        "https://imgs.kenlo.io/VWRCUkQ2Tnp3d1BJRDBJVe1szkhnWr9UfpZS9ftWwjXgr7v5Znen3XVcMHllDVRJJeIbi3YwVYEtu0xlyM9ZvjYmn9s3Ro3hjSis1IifuvqjvGrG8pzrg++e1Mrifu3g7doO+Lb9C2WC6r9IYMUQP1hJOMJNGRC0BIrdAVFtnTnc937JV6tlEzV43g0dwU0PxkemB6fz3GF10A+PU+zvuwmFF6z9NhlTFeVHR9ox7ltMqBezU0J8p0oF7Jq1qTLdaOenJpi9yWxNWAZ8vJq+TqjzwtiOK59nSeUyO3cb51URUaJf1-aKA+9jrwcLou-TCwSW3hrDkec3f8vtBcFJnKALiFzBErcauE3vw4DO16GpbxuEMlFp9bHJqqO0afn1GvvwOWSjh5ZGpM3IIc0ed9qhH2dLVnM5MDwUqVy2qvTa4hirYXjWtl0VWAvP3NE=.jpgx",
+        "https://imgs.kenlo.io/VWRCUkQ2Tnp3d1BJRDBJVe1szkhnWr9UfpZS9ftWwjXgr7v5Znen3XVcMHllDVRJJeIbi3YwVYEtu2ZE5+9z5RJhgNUYAqW-gy6r456Gu5KV9kPOpYyMkqjG9-zZBe3VmIQFlIzRDGD3v79uHPc4EGl+IrZKeyv4YaKfGkNsngu7nXrEcKJWTUZ3jjBtyUlr1F+eBqWm-lAC8QO3B83fizOee7zbA05DQPlLANk18QdW9hinR0InpwcW5JO3vSCAaKyyLIOvkiMYDwYu6oa6SeKv15TFJsonDqooL34J41sRFqAe2beFX6J24QkLuOfUB1+EkBnHl+8kYMGwX95LlLxQlQbGT+Advhu-z9fDgaX6bUyEZ1M0o+rO-ae2O-ygGbSte2+jxctT5pPfapgLIpinA2JAHGZ5J3BfqQD7qbmT4kGrLniV5BBfSAGA.jpg"
+    ],
+    "status": false
+  }
+]

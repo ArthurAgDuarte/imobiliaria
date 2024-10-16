@@ -11,6 +11,9 @@
     --cor-secundaria: #F0500C;
     --cor-04: #8B90EE;
     --cor-05: #232323;
+    --cor-06: #8e8e8e;
+
+    --sombra: 0 0 0.5rem 0.2rem var(--cor-04);
 }
 
 *{
@@ -37,6 +40,7 @@ nav{
     background-color: var(--cor-secundaria);
     display: flex;
     justify-content: space-between;
+    z-index: 10000;
 
 }
 .logo {
@@ -72,31 +76,72 @@ header{
 }
 
 /* sections */
-
 section{
     min-height: 80vh;
     padding: 5rem 2rem;
 }
 /* Card do imovel */
 #imoveis {
+    width: 90%;
+    margin: auto;
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 1rem;
+    gap: 2rem;
+    border:solid 1px purple;
 }
 
 .imovel {
-    
-    border: solid 1px #0066ff; /* TESTE */
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: 0.5s;
+    padding: 0.8rem;
+    background-color: var(--cor-01);
+    border: solid 1px var(--cor-06);
+}
+
+.imovel:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+    box-shadow: var(--sombra);
 }
 
 .foto {
     height: 14rem;
-    
-    border: solid 1px #1ddb00; /* TESTE */
+    width: 100%;
+    border: solid 1px var(--cor-06); 
 }
 
 .foto img {
     height: 100%;
+    width: 100%;
+}
+
+.conteudo{
+    height: auto;
+}
+
+.conteudo h3, p{
+    margin: 0.5rem auto;
+}
+
+.info{
+    font-size: 0.8rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.info div{
+    width: 50%;
+}
+
+.info span{
+    display: block;
+}
+
+.valor-imovel{
+    font-size: 1.5rem;
 }
 
 /* footer */

@@ -74,9 +74,29 @@ header{
 /* sections */
 
 section{
-    border: solid 1px red; /* TESTE */
     min-height: 80vh;
     padding: 5rem 2rem;
+}
+/* Card do imovel */
+#imoveis {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+}
+
+.imovel {
+    
+    border: solid 1px #0066ff; /* TESTE */
+}
+
+.foto {
+    height: 14rem;
+    
+    border: solid 1px #1ddb00; /* TESTE */
+}
+
+.foto img {
+    height: 100%;
 }
 
 /* footer */

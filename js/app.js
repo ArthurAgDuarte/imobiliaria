@@ -21,7 +21,47 @@ const listaImoveis = [
             'link5',
         ],
         status: true,
+    },
+    {
+        id: 2,
+        titulo: 'Casa em condominio no Bairro Dunas',
+        descricao: 'Linda casa de 4 suítes localizada num dos bairros mais luxuosos de Fortaleza.',
+        valor: 1000.000,
+        area: 300,
+        quartos: 4,
+        tipo: 'casa', // casa, terreno
+        localizacao: 'Rua Professora Francisca Almeida De Sousa, Dunas',
+        mapa: 'link do maps',
+        venda_aluguel: 'venda', // aluguel
+        finalidade: 'residencial', // comercial
+        fotos: [ // padrão [0]
+            'https://images.pexels.com/photos/206172/pexels-photo-206172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+            'https://img.freepik.com/fotos-premium/uma-casa-branca-encantadora-com-um-telhado-vermelho-brilhante-e-uma-janela-azul_1258321-339.jpg?w=360',
+            'link4',
+            'link5',
+        ],
+        status: true,
+    },
+    {
+        id: 3,
+        titulo: 'Casa de praia no Porto das Dunas',
+        descricao: 'Bela casa de praia para temporada, com 3 quartos e 2 banheiros, localizada perto do BeachPark.',
+        valor: 200.000,
+        area: 150,
+        quartos: 3,
+        tipo: 'casa', // casa, terreno
+        localizacao: 'Porto das Dunas',
+        mapa: 'link do maps',
+        venda_aluguel: 'Aluguel de temporada', // aluguel
+        finalidade: 'residencial', // comercial
+        fotos: [ // padrão [0]
+            'https://img.freepik.com/fotos-premium/uma-casa-branca-encantadora-com-um-telhado-vermelho-brilhante-e-uma-janela-azul_1258321-339.jpg?w=360',
+            'link4',
+            'link5',
+        ],
+        status: true,
     }
+    
 ]
 
 
@@ -59,12 +99,12 @@ listaImoveis.forEach(imovel =>{
     divInfo.appendChild(divDados)
 
     const quartos = document.createElement('span')
-    quartos.textContent = `Quartos: ${imovel.quartos}`;
+    quartos.textContent = `Quartos: ${imovel.quartos};\n`;
     divDados.appendChild(quartos)
 
 
     const localizacao = document.createElement('span')
-    localizacao.textContent = `Localização: ${imovel.localizacao}`;
+    localizacao.textContent = `Localização: ${imovel.localizacao};\n`;
     divDados.appendChild(localizacao)
 
 

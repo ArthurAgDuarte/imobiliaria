@@ -83,6 +83,11 @@ fetch(urlAPI)
             divValor.textContent = `${imovel.valor.toLocaleString('pt-br', {style: 'currency', currency:'BRL'})}`;
             divInfo.appendChild(divValor)
             
+            const btnExcluir = document.createElement('button');
+            btnExcluir.setAttribute('id', imovel.id);
+            btnExcluir.setAttribute('onclick', 'excluirImovel(this)');
+            btnExcluir.innerHTML = '🗑️';
+            divDados.appendChild(btnExcluir);
         
         
         
@@ -90,4 +95,24 @@ fetch(urlAPI)
         
         })
     }
+    function excluirImovel(imovel) {
 
+        const usuario = JSON.parse(localStorage.getItem('usuarios'))
+        if (usuario.length == 0) {
+            alert('Ação não permitida! Faça login no sistema.');
+            return;
+            
+        } else {
+            
+        }
+
+        fetch(`${urlAPI}/${imovel.id}`, {
+            method: 'DELETE'
+        })
+            .then(() => {
+                location.reload();
+            })
+            .catch(erro => {
+                console.error('Erro: ', erro); // LOG
+            });
+    }

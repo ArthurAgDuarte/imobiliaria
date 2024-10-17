@@ -25,6 +25,7 @@
 html {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 body{
     background-color: var(--cor-02);
@@ -59,12 +60,12 @@ nav a{
     letter-spacing: 0.1rem;
     padding: 0.5rem;
     font-weight: 700;
+    transition: 0.3s;
     text-transform: uppercase;
 }
 nav a:hover{
     cursor: pointer;
     color: var(--cor-04);
-    transition: 0.3s;
 }
 
 /* header (cabeçalho) */
@@ -151,4 +152,42 @@ footer{
     background-color: var(--cor-principal);
     color: var(--cor-01);
     padding: 5rem 2rem;
+}
+
+form{
+    width: 40%;
+    margin: 5rem auto;
+    border: solid 1px;
+    min-height: 20rem;
+    padding: 3rem;
+}
+
+form h2{
+    text-align: center;
+}
+
+form input{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: solid var(--cor-04);
+}
+
+form button{
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    background-color: var(--cor-03);
+    color: var(--cor-01);
+    border: none;
+}
+
+form button:hover{
+    cursor: pointer;
+    background-color: var(--cor-01);
+    color: var(--cor-03);
+    transition: 0.4s;
 }

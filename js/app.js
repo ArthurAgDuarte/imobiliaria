@@ -29,6 +29,7 @@ fetch(urlAPI)
             const cardImovel =  document.createElement('article');
             cardImovel.setAttribute('id', imovel.id);
             cardImovel.classList.add('imovel');
+            cardImovel.setAttribute('onclick', 'mostrarImovel(this.id)');
             document.querySelector('#imoveis').appendChild(cardImovel);
         //fotos
             const divFoto = document.createElement('div');
@@ -115,4 +116,9 @@ fetch(urlAPI)
             .catch(erro => {
                 console.error('Erro: ', erro); // LOG
             });
+    }
+    function mostrarImovel(id) {
+        localStorage.setItem('imovel', id);
+        open('./imovel.html');
+        // console.log(imovel.id); // LOG
     }
